@@ -63,7 +63,7 @@ class Persistence {
     public Journal loadFromUrl(URL url) {return new Journal();}
 }
 
-class Demo {
+public class Demo {
     public static void main(String[] args) throws FileNotFoundException {
         Journal j = new Journal();
         j.addEntry("Hello ");

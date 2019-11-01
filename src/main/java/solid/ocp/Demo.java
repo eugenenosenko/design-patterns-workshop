@@ -75,7 +75,7 @@ class ProductFilter {
 
 }
 
-class Demo {
+public class Demo {
     public static void main(String[] args) {
         Product apple = new Product("Apple", Color.GREEN, Size.SMALL);
         Product tree = new Product("Tree", Color.GREEN, Size.LARGE);
